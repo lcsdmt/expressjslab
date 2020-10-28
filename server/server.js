@@ -38,6 +38,8 @@ app.post('/formsubmissions', (req, res) => {
             });
         }
     });
+//i had it writing text and single lines, but josh showed this to make a JSON object, not specificed in lab and on discord they said txt but cov says use json file so we worked on properly adding it
+
 
     // console.log(req.body.email);
     // console.log(req.body.name);
